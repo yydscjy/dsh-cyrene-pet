@@ -65,12 +65,6 @@ node scripts\install.mjs        # 备选：手动复制进 $DSH_HOME profile（�
 - 渲染引擎：[@esotericsoftware/spine-player](https://www.npmjs.com/package/@esotericsoftware/spine-player) 4.1.56（Spine Runtimes License，免费）
 - 模型文件为解包素材，仅供个人学习使用；发布/分发时请自行确认素材授权
 
-## 📤 发布
-
-```sh
-npm login
-npm publish            # 需要 @yydscjy 作用域权限
-```
 
 ## 🔖 License
 
