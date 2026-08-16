@@ -42,10 +42,10 @@
     "cyrene"
   ],
   "license": "MIT",
-  "author": "linxin666",
+  "author": "yydscjy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linxin666/dsh-cyrene-pet.git"
+    "url": "https://github.com/yydscjy/dsh-cyrene-pet.git"
   },
   "publishConfig": {
     "access": "public"
