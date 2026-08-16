@@ -42,7 +42,7 @@ if ($yaml -match 'cyrene-pet') {
       name: '@yydscjy/dsh-cyrene-pet'
 
 '@
-    # A lone empty flow-array line ("[]") must be removed 鈥?appending after
+    # A lone empty flow-array line ("[]") must be removed — appending after
     # it is invalid YAML (a flow sequence cannot be followed by more items).
     $yaml = $yaml -replace '(?m)^\[\s*\]\s*$', ''
     $yaml = $yaml.TrimEnd()

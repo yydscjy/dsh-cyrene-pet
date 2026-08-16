@@ -45,7 +45,7 @@ try {
   if (yaml.includes('cyrene-pet')) {
     log.push('patch: cyrene-pet already present, skipped');
   } else {
-    // Strip a lone empty flow-array line ("[]") 閳?appending after it is
+    // Strip a lone empty flow-array line ("[]") — appending after it is
     // invalid YAML (a flow sequence cannot be followed by more list items).
     const cleaned = yaml.replace(/^\[\s*\]\s*$/m, '').trimEnd();
     const body = cleaned.length ? cleaned + '\n' : COMMENT_HEADER + '\n';
