@@ -1,0 +1,60 @@
+{
+  "name": "@linxin666/dsh-cyrene-pet",
+  "version": "0.1.0",
+  "description": "Cyrene 昔涟 Spine desk pet for DeepSeek Harness — shows usage, permission requests, and agent status, with drag/resize/mirror and a settings window",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./invariant": {
+      "default": "./lib/invariant.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "desk-pet",
+    "spine",
+    "cyrene"
+  ],
+  "license": "MIT",
+  "author": "linxin666",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linxin666/dsh-cyrene-pet.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-client-runtime": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-client-ui-slots": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-invariants": "^0.1.0-rc.6"
+  }
+}

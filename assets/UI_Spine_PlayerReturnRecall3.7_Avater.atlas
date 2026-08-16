@@ -1,0 +1,384 @@
+UI_Spine_PlayerReturnRecall3.7_Avater.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.346
+A双眼皮
+	bounds: 2034, 738, 129, 14
+	offsets: 34, 34, 197, 82
+	rotate: 90
+A眉毛
+	bounds: 667, 40, 202, 18
+	offsets: 33, 34, 263, 83
+A眼影
+	bounds: 1897, 1509, 215, 22
+	offsets: 34, 35, 282, 92
+	rotate: 90
+A眼珠
+	bounds: 292, 60, 162, 51
+	offsets: 30, 34, 226, 116
+A眼白
+	bounds: 292, 0, 191, 58
+	offsets: 34, 34, 258, 125
+A眼角
+	bounds: 1991, 662, 205, 41
+	offsets: 31, 34, 268, 107
+	rotate: 90
+A睫毛
+	bounds: 1991, 869, 231, 43
+	offsets: 32, 33, 295, 108
+	rotate: 90
+A脸
+	bounds: 1809, 1726, 322, 233
+	offsets: 31, 32, 384, 296
+	rotate: 90
+SHENG1
+	bounds: 1110, 1628, 131, 686
+	offsets: 9, 258, 140, 944
+	rotate: 90
+SHENG2
+	bounds: 1096, 1105, 137, 675
+	offsets: 0, 254, 137, 929
+	rotate: 90
+光环
+	bounds: 1493, 427, 476, 432
+	offsets: 20, 16, 512, 471
+	rotate: 90
+光环2
+	bounds: 994, 416, 497, 487
+光环2发光
+	bounds: 1032, 1, 468, 413
+	offsets: 254, 752, 1009, 1195
+发  高亮
+	bounds: 466, 1242, 64, 34
+	offsets: 32, 32, 128, 98
+	rotate: 90
+发10
+	bounds: 410, 1242, 54, 64
+	offsets: 33, 32, 120, 128
+发13
+	bounds: 485, 0, 58, 180
+	offsets: 32, 33, 121, 244
+	rotate: 90
+发18
+	bounds: 1831, 923, 59, 138
+	offsets: 33, 33, 124, 204
+发2
+	bounds: 295, 113, 74, 201
+	offsets: 32, 32, 138, 265
+	rotate: 90
+发7
+	bounds: 1773, 1112, 50, 186
+	offsets: 31, 32, 113, 250
+发8
+	bounds: 0, 3, 154, 290
+	offsets: 32, 32, 217, 353
+	rotate: 90
+发9
+	bounds: 1957, 183, 85, 199
+	offsets: 32, 32, 148, 262
+发影子
+	bounds: 1897, 1102, 237, 151
+	offsets: 37, 39, 304, 220
+	rotate: 90
+右光点
+	bounds: 1096, 1244, 382, 565
+	offsets: 536, 183, 1009, 1195
+	rotate: 90
+右小臂
+	bounds: 1957, 125, 56, 91
+	offsets: 31, 32, 119, 155
+	rotate: 90
+右带子发光
+	bounds: 517, 60, 300, 513
+	offsets: 530, 263, 1009, 1195
+	rotate: 90
+右手
+	bounds: 1927, 465, 23, 35
+	offsets: 33, 32, 89, 99
+右秋千光1
+	bounds: 410, 892, 348, 551
+	rotate: 90
+右秋千光2
+	bounds: 0, 873, 408, 609
+	offsets: 570, 281, 1009, 1195
+右腿
+	bounds: 1623, 919, 138, 184
+	offsets: 32, 31, 201, 247
+右臂袖子1
+	bounds: 410, 1385, 97, 97
+	offsets: 32, 32, 162, 160
+右臂袖子3
+	bounds: 489, 68, 26, 43
+	offsets: 33, 30, 92, 106
+右臂装饰
+	bounds: 1897, 1484, 23, 20
+	offsets: 33, 33, 88, 86
+	rotate: 90
+后发1
+	bounds: 1502, 3, 453, 422
+	offsets: 1, 0, 481, 450
+后发5
+	bounds: 1663, 1300, 160, 326
+	offsets: 30, 29, 220, 385
+后裙摆1
+	bounds: 1927, 1341, 383, 121
+	offsets: 31, 29, 445, 181
+	rotate: 90
+后裙摆3
+	bounds: 1110, 1761, 697, 287
+	offsets: 29, 26, 757, 337
+后裙摆3发光
+	bounds: 0, 159, 712, 293
+	offsets: 25, 30, 766, 341
+	rotate: 90
+后裙摆4
+	bounds: 963, 905, 658, 198
+	offsets: 28, 33, 714, 259
+后裙摆4发光
+	bounds: 295, 189, 682, 220
+	offsets: 21, 23, 727, 269
+	rotate: 90
+嘴
+	bounds: 410, 1308, 97, 75
+头饰 2
+	bounds: 1763, 905, 66, 156
+	offsets: 32, 32, 129, 218
+头饰1
+	bounds: 963, 1126, 116, 114
+	offsets: 32, 31, 179, 176
+头饰4
+	bounds: 1957, 384, 116, 91
+	offsets: 32, 31, 180, 154
+	rotate: 90
+小星星
+	bounds: 667, 6, 32, 69
+	offsets: 33, 135, 471, 236
+	rotate: 90
+左大臂
+	bounds: 1663, 1244, 54, 85
+	offsets: 33, 33, 120, 150
+	rotate: 90
+左手
+	bounds: 456, 69, 31, 42
+	offsets: 32, 32, 96, 107
+左秋千光1
+	bounds: 0, 1484, 507, 564
+	offsets: 30, 30, 564, 621
+左秋千光2
+	bounds: 517, 362, 475, 528
+	offsets: 47, 325, 1009, 1195
+左臂装饰
+	bounds: 994, 373, 41, 34
+	offsets: 33, 33, 107, 100
+	rotate: 90
+左臂装饰2
+	bounds: 1991, 631, 26, 29
+	offsets: 33, 33, 91, 94
+左袖子1
+	bounds: 1957, 18, 105, 79
+	offsets: 32, 34, 169, 144
+	rotate: 90
+秋千绳-右
+	bounds: 1927, 502, 62, 598
+	offsets: 0, 46, 95, 743
+秋千绳-左
+	bounds: 1825, 1063, 70, 661
+	offsets: 31, 24, 104, 714
+耳饰1
+	bounds: 2038, 106, 10, 17
+	offsets: 33, 33, 75, 82
+耳饰2
+	bounds: 1892, 1003, 58, 33
+	offsets: 32, 33, 123, 99
+	rotate: 90
+银白叶子
+	bounds: 509, 1242, 585, 391
+	offsets: 23, 26, 632, 444
+银白叶子-光
+	bounds: 509, 1635, 599, 413
+	offsets: 200, 457, 1009, 1195
+鼻子
+	bounds: 1493, 419, 6, 7
+	offsets: 33, 33, 72, 73
+	rotate: 90
+
+UI_Spine_PlayerReturnRecall3.7_Avater_2.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.346
+B闭眼
+	bounds: 1856, 994, 294, 171
+	rotate: 90
+光环发光
+	bounds: 449, 1062, 474, 432
+	offsets: 26, 27, 527, 487
+	rotate: 90
+发1
+	bounds: 1328, 1400, 59, 199
+	offsets: 31, 31, 121, 263
+	rotate: 90
+发11
+	bounds: 1414, 309, 134, 244
+	offsets: 32, 32, 198, 308
+发12
+	bounds: 1770, 415, 131, 235
+	offsets: 16, 26, 177, 282
+	rotate: 90
+发14
+	bounds: 1200, 435, 172, 319
+	offsets: 32, 30, 235, 378
+发15
+	bounds: 1135, 35, 188, 305
+	offsets: 31, 31, 251, 367
+	rotate: 90
+发16
+	bounds: 1767, 273, 140, 203
+	offsets: 27, 28, 197, 258
+	rotate: 90
+发17
+	bounds: 1623, 545, 145, 231
+	offsets: 32, 32, 207, 294
+发3
+	bounds: 1924, 1851, 71, 196
+	offsets: 32, 32, 135, 260
+发4
+	bounds: 855, 463, 291, 343
+	offsets: 31, 31, 353, 405
+	rotate: 90
+发5
+	bounds: 1442, 149, 92, 158
+	offsets: 32, 32, 156, 221
+发6
+	bounds: 1175, 225, 237, 208
+	offsets: 31, 32, 299, 272
+右大臂
+	bounds: 190, 6, 77, 89
+	offsets: 33, 33, 143, 155
+	rotate: 90
+右带子
+	bounds: 1315, 1606, 256, 441
+	offsets: 28, 36, 311, 509
+右臂袖子2
+	bounds: 1679, 230, 73, 74
+	offsets: 33, 32, 138, 128
+后发2
+	bounds: 855, 241, 220, 318
+	offsets: 30, 32, 278, 377
+	rotate: 90
+后发3
+	bounds: 1328, 1461, 143, 243
+	offsets: 27, 31, 170, 274
+	rotate: 90
+后发4
+	bounds: 834, 22, 217, 299
+	offsets: 29, 30, 277, 360
+	rotate: 90
+后发6
+	bounds: 1573, 1706, 349, 341
+	offsets: 30, 29, 409, 400
+后发7
+	bounds: 1526, 1001, 287, 328
+	offsets: 31, 31, 350, 391
+	rotate: 90
+后裙摆
+	bounds: 449, 447, 404, 206
+	offsets: 0, 24, 430, 230
+后裙摆2
+	bounds: 898, 1395, 428, 179
+	offsets: 31, 27, 486, 231
+后裙摆2发光
+	bounds: 397, 42, 435, 190
+	offsets: 32, 31, 498, 246
+后裙摆_1
+	bounds: 1573, 1498, 404, 206
+	offsets: 0, 24, 430, 230
+后裙摆_2
+	bounds: 1573, 1290, 404, 206
+	offsets: 0, 24, 430, 230
+后裙摆_3
+	bounds: 1318, 989, 404, 206
+	offsets: 0, 24, 430, 230
+	rotate: 90
+头饰3
+	bounds: 0, 0, 83, 188
+	offsets: 31, 32, 145, 252
+	rotate: 90
+头饰5
+	bounds: 1397, 847, 140, 115
+	offsets: 31, 32, 203, 179
+	rotate: 90
+左光点
+	bounds: 898, 1576, 415, 471
+	offsets: 33, 255, 1010, 1195
+左小臂
+	bounds: 1924, 1761, 87, 88
+	offsets: 32, 32, 151, 152
+左带子
+	bounds: 449, 655, 383, 405
+	offsets: 16, 0, 427, 432
+左带子发光
+	bounds: 0, 85, 395, 429
+	offsets: 51, 315, 1010, 1195
+左腿
+	bounds: 1269, 795, 126, 172
+	offsets: 32, 32, 190, 236
+左袖子2
+	bounds: 281, 23, 83, 60
+	offsets: 32, 33, 148, 124
+秋千-右
+	bounds: 397, 234, 211, 433
+	offsets: 30, 28, 271, 490
+	rotate: 90
+秋千-右_1
+	bounds: 883, 1182, 211, 433
+	offsets: 30, 28, 271, 490
+	rotate: 90
+秋千-右_2
+	bounds: 883, 969, 211, 433
+	offsets: 30, 28, 271, 490
+	rotate: 90
+秋千-右_3
+	bounds: 834, 756, 211, 433
+	offsets: 30, 28, 271, 490
+	rotate: 90
+秋千-左
+	bounds: 0, 1538, 447, 509
+	offsets: 24, 31, 498, 565
+秋千-左_1
+	bounds: 0, 1027, 447, 509
+	offsets: 24, 31, 498, 565
+秋千-左_2
+	bounds: 449, 1538, 447, 509
+	offsets: 24, 31, 498, 565
+秋千-左_3
+	bounds: 0, 516, 447, 509
+	offsets: 24, 31, 498, 565
+裙摆1
+	bounds: 1536, 161, 141, 143
+	offsets: 30, 31, 200, 174
+裙摆1_1
+	bounds: 1442, 4, 141, 143
+	offsets: 30, 31, 200, 174
+裙摆1_2
+	bounds: 1585, 16, 141, 143
+	offsets: 30, 31, 200, 174
+裙摆1_3
+	bounds: 1754, 130, 141, 143
+	offsets: 30, 31, 200, 174
+	rotate: 90
+裙摆2
+	bounds: 1526, 778, 247, 221
+	offsets: 31, 28, 278, 249
+裙摆2_1
+	bounds: 1775, 771, 247, 221
+	offsets: 31, 28, 278, 249
+裙摆2_2
+	bounds: 1374, 555, 247, 221
+	offsets: 31, 28, 278, 249
+裙摆2_3
+	bounds: 1770, 548, 247, 221
+	offsets: 31, 28, 278, 249
+身体
+	bounds: 1550, 306, 237, 215
+	offsets: 29, 30, 295, 266
+	rotate: 90

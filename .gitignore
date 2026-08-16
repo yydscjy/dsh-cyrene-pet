@@ -1,0 +1,14 @@
+node_modules/
+runtime/
+.npm-cache/
+*.log
+*.txt
+
+# raw extracted source material (unused scene assets); assets/ holds the
+# packaged model files
+Q版昔涟_by_做自我就好_a39a1e13ac64b3b8278b584e4b7fd5fc/
+
+# local reference files (not part of the package)
+cordis.yml
+awesome_dsh_plugin.md
+dsh_topic_raw.html
