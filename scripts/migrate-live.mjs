@@ -1,6 +1,6 @@
 /**
  * Migrate the live dsh profile install from @cyrene/dsh-pet to
- * @linxin666/dsh-cyrene-pet: copy the renamed package in, rename the patch
+ * @yydscjy/dsh-cyrene-pet: copy the renamed package in, rename the patch
  * row, remove the old manual install.
  */
 import { mkdirSync, copyFileSync, readFileSync, writeFileSync, existsSync, rmSync } from 'node:fs';
@@ -9,8 +9,11 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dshHome = process.env.DSH_HOME || join(process.env.USERPROFILE || 'C:\\Users\\Administrator', '.dsh');
-const target = join(dshHome, 'profiles', 'node_modules', '@linxin666', 'dsh-cyrene-pet');
-const oldTarget = join(dshHome, 'profiles', 'node_modules', '@cyrene', 'dsh-pet');
+const target = join(dshHome, 'profiles', 'node_modules', '@yydscjy', 'dsh-cyrene-pet');
+const oldTargets = [
+  join(dshHome, 'profiles', 'node_modules', '@cyrene', 'dsh-pet'),
+  join(dshHome, 'profiles', 'node_modules', '@linxin666', 'dsh-cyrene-pet'),
+];
 const patchFile = join(dshHome, 'profiles', 'web', 'cordis.patch.yml');
 const log = [];
 
@@ -34,20 +37,20 @@ try {
 
   // rename the patch row
   let yaml = readFileSync(patchFile, 'utf8');
-  const fixed = yaml.replace(/name: '@cyrene\/dsh-pet'/g, "name: '@linxin666/dsh-cyrene-pet'");
+  const fixed = yaml.replace(/name: '@(?:cyrene\/dsh-pet|linxin666\/dsh-cyrene-pet)'/g, "name: '@yydscjy/dsh-cyrene-pet'");
   if (fixed !== yaml) {
     writeFileSync(patchFile, fixed, 'utf8');
-    log.push('patch: renamed row to @linxin666/dsh-cyrene-pet');
+    log.push('patch: renamed row to @yydscjy/dsh-cyrene-pet');
   } else {
     log.push('patch: no old name found (already renamed?)');
   }
 
-  // remove the old manual install
-  if (existsSync(oldTarget)) {
-    rmSync(oldTarget, { recursive: true, force: true });
-    log.push('removed old @cyrene/dsh-pet');
-  } else {
-    log.push('old @cyrene/dsh-pet not present');
+  // remove old manual installs
+  for (const oldTarget of oldTargets) {
+    if (existsSync(oldTarget)) {
+      rmSync(oldTarget, { recursive: true, force: true });
+      log.push('removed ' + oldTarget.split('node_modules')[1]);
+    }
   }
 
   log.push('OK');

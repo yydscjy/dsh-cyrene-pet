@@ -1,6 +1,6 @@
 /**
- * Install @linxin666/dsh-cyrene-pet into the dsh web profile:
- *   1. copy package.json / lib / assets into $DSH_HOME\profiles\node_modules\@linxin666\dsh-cyrene-pet
+ * Install @yydscjy/dsh-cyrene-pet into the dsh web profile:
+ *   1. copy package.json / lib / assets into $DSH_HOME\profiles\node_modules\@yydscjy\dsh-cyrene-pet
  *   2. add the plugin row to $DSH_HOME\profiles\web\cordis.patch.yml (idempotent)
  *   3. write .install.log in the workspace with the outcome
  */
@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dshHome = process.env.DSH_HOME || join(process.env.USERPROFILE || 'C:\\Users\\Administrator', '.dsh');
-const target = join(dshHome, 'profiles', 'node_modules', '@linxin666', 'dsh-cyrene-pet');
+const target = join(dshHome, 'profiles', 'node_modules', '@yydscjy', 'dsh-cyrene-pet');
 const patchFile = join(dshHome, 'profiles', 'web', 'cordis.patch.yml');
 const log = [];
 
@@ -39,13 +39,13 @@ try {
     '# a top-level YAML array of loader patch entries (id-targeted config',
     '# overrides, disables, and insert lists; `!!js` expressions allowed).',
   ].join('\n');
-  const ENTRY = "- insert:\n    - id: cyrene-pet\n      name: '@linxin666/dsh-cyrene-pet'\n";
+  const ENTRY = "- insert:\n    - id: cyrene-pet\n      name: '@yydscjy/dsh-cyrene-pet'\n";
 
   let yaml = existsSync(patchFile) ? readFileSync(patchFile, 'utf8') : '';
   if (yaml.includes('cyrene-pet')) {
     log.push('patch: cyrene-pet already present, skipped');
   } else {
-    // Strip a lone empty flow-array line ("[]") 鈥?appending after it is
+    // Strip a lone empty flow-array line ("[]") 閳?appending after it is
     // invalid YAML (a flow sequence cannot be followed by more list items).
     const cleaned = yaml.replace(/^\[\s*\]\s*$/m, '').trimEnd();
     const body = cleaned.length ? cleaned + '\n' : COMMENT_HEADER + '\n';

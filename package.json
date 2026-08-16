@@ -1,7 +1,7 @@
 {
-  "name": "@linxin666/dsh-cyrene-pet",
+  "name": "@yydscjy/dsh-cyrene-pet",
   "version": "0.1.0",
-  "description": "Cyrene 昔涟 Spine desk pet for DeepSeek Harness — shows usage, permission requests, and agent status, with drag/resize/mirror and a settings window",
+  "description": "Cyrene 鏄旀稛 Spine desk pet for DeepSeek Harness 鈥?shows usage, permission requests, and agent status, with drag/resize/mirror and a settings window",
   "type": "module",
   "main": "lib/index.js",
   "exports": {

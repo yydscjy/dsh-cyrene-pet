@@ -1,8 +1,8 @@
-﻿<#
-  Install @linxin666/dsh-cyrene-pet into the dsh web profile.
+<#
+  Install @yydscjy/dsh-cyrene-pet into the dsh web profile.
 
   1. Copies the package (package.json, lib/, assets/) into
-     $DSH_HOME\profiles\node_modules\@linxin666\dsh-cyrene-pet
+     $DSH_HOME\profiles\node_modules\@yydscjy\dsh-cyrene-pet
   2. Adds the plugin row to $DSH_HOME\profiles\web\cordis.patch.yml (idempotent)
   3. Prints the restart instruction
 
@@ -12,10 +12,10 @@ $ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $PSScriptRoot
 $home = if ($env:DSH_HOME) { $env:DSH_HOME } else { Join-Path $env:USERPROFILE '.dsh' }
-$target = Join-Path $home 'profiles\node_modules\@linxin666\dsh-cyrene-pet'
+$target = Join-Path $home 'profiles\node_modules\@yydscjy\dsh-cyrene-pet'
 $patch = Join-Path $home 'profiles\web\cordis.patch.yml'
 
-Write-Host "==> Installing @linxin666/dsh-cyrene-pet"
+Write-Host "==> Installing @yydscjy/dsh-cyrene-pet"
 Write-Host "    target: $target"
 
 # 1. copy package files
@@ -39,7 +39,7 @@ if ($yaml -match 'cyrene-pet') {
     $entry = @'
 - insert:
     - id: cyrene-pet
-      name: '@linxin666/dsh-cyrene-pet'
+      name: '@yydscjy/dsh-cyrene-pet'
 
 '@
     # A lone empty flow-array line ("[]") must be removed 鈥?appending after

@@ -14,7 +14,7 @@ const { nodeResolve } = require('../runtime/node_modules/@rollup/plugin-node-res
 
 const PROLOGUE = [
   'window.__ModuleLoader__.load({',
-  '  id: "@linxin666/dsh-cyrene-pet",',
+  '  id: "@yydscjy/dsh-cyrene-pet",',
   '  factory: (require) => {',
   '    var module = { exports: {} };',
   '    var exports = module.exports;',
